@@ -15,6 +15,6 @@ public class HomeTest extends BaseTest{
         String actualTitle = homePage.getHomePageTitle();
         String expectedTitle = "#1 Leader in Individualized, Cross-Channel CX — Insider";
 
-        Assert.assertEquals(actualTitle,expectedTitle,"Ana sayfa  beklenenden farklı!");
+        Assert.assertEquals(actualTitle,expectedTitle,"Ana sayfa başlığı beklenenden farklı!");
     }
 }
