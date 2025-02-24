@@ -1,9 +1,11 @@
 package tests;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.NavBarPage;
 
+@Listeners(utils.Listeners.class)
 public class NavBarTest extends BaseTest{
 
 

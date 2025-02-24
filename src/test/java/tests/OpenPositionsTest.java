@@ -1,6 +1,7 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.OpenPositionsPage;
@@ -8,7 +9,7 @@ import pages.QualityAssurancePage;
 
 import java.util.List;
 
-
+@Listeners(utils.Listeners.class)
 public class OpenPositionsTest extends BaseTest{
 
     HomePage homePage;

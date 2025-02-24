@@ -1,11 +1,13 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.CareesPage;
 import pages.HomePage;
 import pages.NavBarPage;
 
+@Listeners(utils.Listeners.class)
 public class CareesTest extends BaseTest{
 
     HomePage homePage;
