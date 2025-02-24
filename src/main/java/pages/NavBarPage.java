@@ -26,7 +26,7 @@ public class NavBarPage extends BasePage{
 
     public NavBarPage moveToNavbarItem(){
         waitForVisibility(navCompanyDropDown);
-        actions.moveToElement(navCompanyDropDown).perform();
+        actions.moveToElement(navCompanyDropDown).click().perform();
         return this;
     }
     public NavBarPage hoverOverTabNavBarItem(){
