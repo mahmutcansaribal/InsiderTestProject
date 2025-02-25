@@ -1,5 +1,8 @@
 package tests;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -18,6 +21,8 @@ public class OpenPositionsTest extends BaseTest{
 
 
     @Test
+    @Description("Open Positions sayfasında bulunan Location ve Departmanlar seçilmeli, doğrulanmalı ve ardından Lever sayfasına yönlendirilmelidir.")
+    @Severity(SeverityLevel.CRITICAL)
     public void selectQAJobsWithFilter(){
         homePage = new HomePage(driver);
         qualityAssurancePage = new QualityAssurancePage(driver);

@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -50,10 +51,21 @@ public class BaseTest {
                 directory.mkdirs();
             }
             FileUtils.copyFile(srcFile, new File(filePath));
+            attachScreenshotToAllure(srcFile);
             System.out.println("Screenshot saved : "+filePath);
         }catch (IOException e){
             System.out.println("Screenshot could not be saved!");
             e.printStackTrace();
+        }
+    }
+
+    @Attachment(value = "Failure Screenshot", type = "image/png")
+    public byte[] attachScreenshotToAllure(File file) {
+        try {
+            return FileUtils.readFileToByteArray(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+            return new byte[0];
         }
     }
 }
