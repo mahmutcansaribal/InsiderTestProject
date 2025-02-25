@@ -26,7 +26,7 @@ Proje, **Java**, **Selenium**, **TestNG**, **Allure Report** gibi teknolojilerle
 
 - **Programlama Dili** : Java
 - **JAVA JDK** : 21
-- **Test Framework** : TestNG
+- **Test Framework** : TestNG 7.10.2
 - **Otomasyon Tool** : Selenium WebDriver
 - **Raporlama Tool** : Allure Report 2.29.0
 - **Build Tool** : Maven
