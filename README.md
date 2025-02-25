@@ -31,4 +31,36 @@ Proje, **Java**, **Selenium**, **TestNG**, **Allure Report** gibi teknolojilerle
 - **Raporlama Tool** : Allure Report 2.29.0
 - **Build Tool** : Maven
 
+## Test Senaryoları aşağıdaki adımları kapsar
+
+### Ana Sayfa Kontrolü:
+
+- Insider Ana Sayfası açılır ve sayfanın düzgün yüklendiği doğrulanır.
+
+---
+### Kariyer Sayfası Kontrolü:
+
+- Navigasyon çubuğundaki “Company” menüsü seçilir.
+- Açılan menüden “Careers” seçilir ve yönlendirme doğrulanır.
+- Kariyer sayfasında Locations, Teams ve Life at Insider bölümlerinin görüntülendiği doğrulanır.
+
+---
+### İş İlanları Filtreleme ve Doğrulama:
+
+- Quality Assurance Kariyer Sayfası açılır.
+- “See all QA jobs” butonuna tıklanır ve iş ilanları sayfasına geçiş doğrulanır.
+- İş ilanları Lokasyon: İstanbul, Türkiye  
+- Departman: Quality Assurance kriterleriyle filtrelenir.
+Listelenen tüm iş ilanlarının:
+- Pozisyon başlığında “Quality Assurance” kelimesini içerdiği,
+- Departman bilgisinin “Quality Assurance” olduğu,
+- Lokasyon bilgisinin “Istanbul, Turkey” olduğu doğrulanır.
+
+### Başvuru Sayfası Yönlendirme Kontrolü:
+
+- Her bir ilan için "View Role" butonuna tıklanır.
+- Kullanıcının Lever Application Form sayfasına yönlendirildiği kontrol edilir.
+
+---
+
 ![CartTestAllureReport](https://github.com/mahmutcansaribal/InsiderTestProject/blob/main/assets/img.png?raw=true)
