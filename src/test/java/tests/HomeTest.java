@@ -20,7 +20,7 @@ public class HomeTest extends BaseTest{
     public void homePageIsLoadedTest(){
         homePage = new HomePage(driver);
         String actualTitle = homePage.getHomePageTitle();
-        String expectedTitle = "1 Leader in Individualized, Cross-Channel CX — Insider";
+        String expectedTitle = "#1 Leader in Individualized, Cross-Channel CX — Insider";
 
         Assert.assertEquals(actualTitle,expectedTitle,"Ana sayfa başlığı beklenenden farklı!");
     }
