@@ -9,7 +9,7 @@
 ## Proje Açıklaması
 
 Bu proje, Insider platformunda kullanıcı akışlarını test etmek ve doğrulamak amacıyla geliştirilmiş bir otomasyon test paketidir.
-Test senaryoları, Bu proje, Insider web sitesinin kariyer sayfasındaki iş ilanlarını ve yönlendirmeleri test etmek için geliştirilmiş bir otomasyon test paketidir. Test senaryoları, ana sayfanın açılması, kariyer sayfasına erişim, iş ilanlarının lokasyon ve departmana göre filtrelenmesi ve ilan detay sayfasına yönlendirme işlemlerini kapsamaktadır. Proje, sayfa doğrulamalarını ve filtreleme işlevselliğini test ederek kullanıcı deneyiminin tutarlılığını sağlamayı amaçlamaktadır.
+Test senaryoları Insider web sitesinin kariyer sayfasındaki iş ilanlarını ve yönlendirmeleri test etmek için geliştirilmiş bir otomasyon test paketidir. Test senaryoları, ana sayfanın açılması, kariyer sayfasına erişim, iş ilanlarının lokasyon ve departmana göre filtrelenmesi ve ilan detay sayfasına yönlendirme işlemlerini kapsamaktadır. Proje, sayfa doğrulamalarını ve filtreleme işlevselliğini test ederek kullanıcı deneyiminin tutarlılığını sağlamayı amaçlamaktadır.
 Proje, **Java**, **Selenium**, **TestNG**, **Allure Report** gibi teknolojilerle desteklenmiş ve **Page Object Model** tasarım deseni kullanılarak geliştirilmiştir.
 
 ---
