@@ -50,8 +50,8 @@ Proje, **Java**, **Selenium**, **TestNG**, **Allure Report** gibi teknolojilerle
 - Quality Assurance Kariyer Sayfası açılır.
 - “See all QA jobs” butonuna tıklanır ve iş ilanları sayfasına geçiş doğrulanır.
 - İş ilanları Lokasyon: İstanbul, Türkiye  
-- Departman: Quality Assurance kriterleriyle filtrelenir.
-Listelenen tüm iş ilanlarının:
+- Departman: Quality Assurance kriterleriyle filtrelenir. 
+#### Listelenen tüm iş ilanlarının:
 - Pozisyon başlığında “Quality Assurance” kelimesini içerdiği,
 - Departman bilgisinin “Quality Assurance” olduğu,
 - Lokasyon bilgisinin “Istanbul, Turkey” olduğu doğrulanır.
